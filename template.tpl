@@ -98,7 +98,7 @@ ___TEMPLATE_PARAMETERS___
 ___SANDBOXED_JS_FOR_SERVER___
 
 //const logToConsole = require('logToConsole');
-const getType = require('getType');
+//const getType = require('getType');
 
 for (let i = 0; i < data.variables.length; i++) {
   const value = data.variables[i].value;

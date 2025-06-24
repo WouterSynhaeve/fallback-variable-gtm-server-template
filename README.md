@@ -22,7 +22,7 @@ Optionally, if the "Provide default value" checkbox is checked, it will return t
     *   **Default Value (textfield):** Enter the value to return if "Provide default value" is checked and all fallback variables are falsy. If "Provide default value" is checked and this field is left empty, an empty string `""` will be returned as the default value.
 *   **Accept falsy values (checkboxes):** These options allow you to control whether certain "falsy" values should be accepted as valid (i.e., not skipped over as a fallback).
     *   **`false`:** If checked, the boolean value `false` will be returned if encountered.
-    *   **`0`:** If checked, the number `0` will be returned if encountered.
+    *   **`0`:** If checked, the number `0` will be returned if encountered. This checkbox has no affect on numeric strings such as "0", this will always evaluate truthy. It's recommended to cast numbers beforehand.
     *   **`null`:** If checked, the value `null` will be returned if encountered.
     *   **`""` (empty string):** If checked, an empty string `""` will be returned if encountered.
 
