@@ -101,7 +101,7 @@ ___SANDBOXED_JS_FOR_SERVER___
 //const getType = require('getType');
 
 for (let i = 0; i < data.variables.length; i++) {
-  const value = data.variables[i].value;
+  const value = data.variables[i].variable;
 //  logToConsole("type: "+getType(value));
   if (
       (data.acceptFalseValues && value === false) ||
